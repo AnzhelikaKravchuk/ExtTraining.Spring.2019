@@ -2,11 +2,11 @@
 
 - Форкнуть данный репозиторий.
 
-        ![](https://github.com/AnzhelikaKravchuk/ExtTraining.Autumn.2018.3/blob/master/Pictures/1.png)
+     ![](https://github.com/AnzhelikaKravchuk/ExtTraining.Autumn.2018.3/blob/master/Pictures/1.png)
         
 - Склонировать **свою ветку** к себе на десктоп.
 
-        ![](https://github.com/AnzhelikaKravchuk/ExtTraining.Autumn.2018.3/blob/master/Pictures/2.png)
+     ![](https://github.com/AnzhelikaKravchuk/ExtTraining.Autumn.2018.3/blob/master/Pictures/2.png)
         
 - Выполнить указанные ниже задачи, заролнив необходимыми функциональностью и изменениями только те проекты No#.Solution и No#.Solution.Console (No#.Solution.Tests), которые указаны в задниях.
 
@@ -14,7 +14,7 @@
 
 - Сделать pull request к данному репозиторию.
 
-        ![](https://github.com/AnzhelikaKravchuk/ExtTraining.Autumn.2018.3/blob/master/Pictures/3.png)
+     ![](https://github.com/AnzhelikaKravchuk/ExtTraining.Autumn.2018.3/blob/master/Pictures/3.png)
 
 ## Постановка заданий
 
