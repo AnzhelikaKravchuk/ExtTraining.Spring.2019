@@ -5,7 +5,7 @@ namespace No5
 {
     public class Document
     {
-        private List<DocumentPart> parts;
+        private readonly List<DocumentPart> parts;
 
         public Document(IEnumerable<DocumentPart> parts)
         {

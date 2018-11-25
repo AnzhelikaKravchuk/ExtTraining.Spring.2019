@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace No2
 {
@@ -23,10 +19,10 @@ namespace No2
         {
             var stockInfo = (StockInfo)info;
 
-            if (stockInfo.Euro > 40)
-                Console.WriteLine("Банк {0} продает евро;  Курс евро: {1}", this.Name, stockInfo.Euro);
-            else
-                Console.WriteLine("Банк {0} покупает евро;  Курс евро: {1}", this.Name, stockInfo.Euro);
+            Console.WriteLine(
+                stockInfo.Euro > 40
+                    ? $"Bank {this.Name} sells euros; Euro rate:{stockInfo.Euro}"
+                    : $"Bank {this.Name} is buying euros; Euro rate: {stockInfo.Euro}");
         }
     }
 }

@@ -44,8 +44,5 @@
     <Compile Include="RandomBytesFileGenerator.cs" />
     <Compile Include="RandomCharsFileGenerator.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="No4.txt" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

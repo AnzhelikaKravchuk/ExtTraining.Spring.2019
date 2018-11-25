@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace No2
 {
@@ -21,12 +17,12 @@ namespace No2
 
         public void Update(object info)
         {
-            StockInfo sInfo = (StockInfo)info;
+            StockInfo stockInfo = (StockInfo)info;
 
-            if (sInfo.USD > 30)
-                Console.WriteLine("Брокер {0} продает доллары;  Курс доллара: {1}", this.Name, sInfo.USD);
-            else
-                Console.WriteLine("Брокер {0} покупает доллары;  Курс доллара: {1}", this.Name, sInfo.USD);
+            Console.WriteLine(
+                stockInfo.USD > 30
+                    ? $"Broker {this.Name} sells dollars; Dollar rate: {stockInfo.USD}"
+                    : $"Broker {this.Name} buys dollars; Dollar rate: {stockInfo.USD}");
         }
 
         public void StopTrade()
