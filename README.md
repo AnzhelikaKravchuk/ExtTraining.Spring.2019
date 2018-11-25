@@ -2,7 +2,7 @@
 
 1. Форкнуть данный репозиторий.
         ![](https://github.com/AnzhelikaKravchuk/ExtTraining.Autumn.2018.3/blob/master/Pictures/1.png)
-2. Склонировать свою ветку к себе на десктоп.
+2. Склонировать **свою ветку** к себе на десктоп.
         ![](https://github.com/AnzhelikaKravchuk/ExtTraining.Autumn.2018.3/blob/master/Pictures/2.png)
 3. Выполнить указанные ниже задачи, заролнив необходимыми функциональностью и изменениями только те проекты No#.Solution и No#.Solution.Console (No#.Solution.Tests), которые указаны в задниях.
 4. Синхронизировать изменения с содержимым своего репозитория на gitub-e.
