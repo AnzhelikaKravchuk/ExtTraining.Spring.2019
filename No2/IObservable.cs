@@ -10,6 +10,6 @@ namespace No2
     {
         void Register(IObserver observer);
         void Unregister(IObserver observer);
-        void Notify(IObservable sender, WeatherInfo info);
+        void Notify();
     }
 }
