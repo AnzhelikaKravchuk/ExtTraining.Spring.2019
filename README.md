@@ -3,6 +3,7 @@
 1. Форкнуть данный репозиторий.
         ![](https://github.com/AnzhelikaKravchuk/ExtTraining.Autumn.2018.3/blob/master/Pictures/1.png)
 2. Склонировать свою ветку к себе на десктоп.
+        ![](https://github.com/AnzhelikaKravchuk/ExtTraining.Autumn.2018.3/blob/master/Pictures/2.png)
 3. Заполнить проекты No8.Solution и No8.Solution.Console (No8.Solution.Tests) необходимыми функциональностью и изменениями.
 4. Синхронизировать изменения с содержимым своего репозитория на gitub-e.
 5. Сделать pull request к данному репозиторию.
