@@ -2,6 +2,6 @@
 {
     public interface IObserver
     {
-        void Update(IObservable sender, WeatherInfo info);
+        void Update(object observeble);
     }
 }
