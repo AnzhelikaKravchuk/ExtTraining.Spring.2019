@@ -1,4 +1,4 @@
-## ExtTraining.Autumn.2018.3 (deadline - 26.11.2018, 12.00)
+## ExtTraining.Spring.2019 (deadline - 16.05.2019, 12.00)
 
 *- Форкнуть данный репозиторий.*
 
