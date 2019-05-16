@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -52,6 +52,10 @@
     <ProjectReference Include="..\No2\No2.csproj">
       <Project>{1625d0a8-ed26-40e3-8e43-ce512c547261}</Project>
       <Name>No2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\No2.Solution\No2.Solution.csproj">
+      <Project>{BE66601E-B0BA-435D-ADE3-761747CE8DC4}</Project>
+      <Name>No2.Solution</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
